@@ -1,0 +1,205 @@
+.header {
+    overflow: hidden;
+    background-color: #fffffff0;
+    padding: 10px 5px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 25px; 
+  
+  }
+  
+  
+
+  .header a:hover {
+    background-color: transparent;
+    border: 2px solid rgb(255, 180, 30);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+  }
+  
+ 
+  .header a.active {
+    background-color: transparent;
+    border: 2px solid rgb(255, 180, 30);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+
+  }
+  
+  
+  .header-right {
+    float: right;
+  }
+
+  .header-right a.signin {
+    background-color: black; 
+    color: white;
+    border-radius: 0px;
+  }
+
+  .header-right a.getaq {
+    background-color: rgb(255, 180, 30); 
+    color: white; 
+    border-radius: 0px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    
+  }
+  .btn.btn-warning {
+    color: white;
+    border-radius: 0px;   
+}
+
+.btn.btn-secondary {
+  
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+  
+} 
+
+  .image-container img {
+    width: 100%;
+}
+  
+  .caption-box {
+    width: 1000px;
+    background-color: white;
+    padding: 50px;
+    padding-left: 475px;
+
+    
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: black;
+  }
+  
+  .black-text {
+    color: black;
+    font-size: 50px;
+    
+
+  }
+  
+  .yellow-text {
+    color: rgb(255, 180, 30);
+    font-size: 35px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    max-width: 400px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } 
+
+  .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+
+  footer { 
+    color: #fff; 
+    padding: 30px 0; 
+} 
+
+.footer-links a { 
+    color: #fff; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    transition: color 0.3s ease; 
+} 
+
+.footer-links a:hover { 
+    color: #adb5bd; 
+} 
+
+.orange-text {
+  color: orange;
+}
+
+.card-body {
+  text-align: left;
+  padding-left: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.servicetext1 {
+  text-align: center;
+  color: orange; 
+  
+}
+
+.servicetext2 {
+  text-align: center;
+  color: rgb(0, 0, 0); 
+  
+}
+.servicetext3 {
+  padding-left: 110px;
+  color: rgb(0, 0, 0);
+  font-size: small; 
+  
+}
+
+.text-orange {
+  color: orange;
+}
+
+.whyus {
+  padding-left: 175px;
+}
+
+.servicetext4 {
+  text-align: center;
+  color: orange; 
+  font-size: small; 
+  
+}
+
+.btn-orange {
+  background-color: orange;
+  
+}
+
+.btn-orange:hover {
+  background-color: orange; 
+}
