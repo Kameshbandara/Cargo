@@ -1,5 +1,5 @@
 
-## Used : HTML,CSS, javascript and Bootstrap
+## HTML,CSS, javascript and Bootstrap
 ## Screenshots
 
 
